@@ -2,11 +2,222 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_xl" />
+        <device id="pixel" />
+      </config>
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053270d3-97bc-486f-8b5c-efb2ee203ecc" name="Default Changelist" comment="" />
+    <list default="true" id="47e71447-1308-45b4-9045-a6af2c87098c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/view/annotations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthCallbackActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/CustomTabAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/LoginDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/SpotifyAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/SpotifyNativeAuthUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/WebViewAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/WebViewUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/res/layout/com_spotify_sdk_login_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/res/layout/com_spotify_sdk_login_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/test/java/android/net/http/AndroidHttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/AuthenticationClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/AuthenticationRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/AuthenticationResponseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/LoginActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-lib/src/test/resources/robolectric.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/java/com/spotify/sdk/android/authentication/sample/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/values/spotify-strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/auth-sample/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/config/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/config/findbugs-filter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/config/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthCallbackActivity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationHandler.OnCompleteListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationHandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationRequest.Builder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationRequest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationResponse.Builder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationResponse.Type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/CustomTabAuthHandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/LoginActivity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/SpotifyNativeAuthUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/docs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/android-auth-master/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/grouptunes/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthCallbackActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/CustomTabAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/LoginDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/SpotifyAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/SpotifyNativeAuthUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/WebViewAuthHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/WebViewUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/java/com/spotify/sdk/android/authentication/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/res/layout/com_spotify_sdk_login_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/res/layout/com_spotify_sdk_login_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/test/java/android/net/http/AndroidHttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/AuthenticationClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/AuthenticationRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/AuthenticationResponseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/test/java/com/spotify/sdk/android/authentication/LoginActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-lib/src/test/resources/robolectric.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/java/com/spotify/sdk/android/authentication/sample/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/values/spotify-strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/auth-sample/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/config/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/config/findbugs-filter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/config/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthCallbackActivity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationClient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationHandler.OnCompleteListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationHandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationRequest.Builder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationRequest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationResponse.Builder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationResponse.Type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/AuthenticationResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/CustomTabAuthHandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/LoginActivity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/SpotifyNativeAuthUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/com/spotify/sdk/android/authentication/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/docs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/libs/android-auth-master/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/ApManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/DisplayMessageActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/WebServerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_display_message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/grouptunes/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,48 +227,74 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ZL5222VX9L" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GroupTunes" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sendMess</find>
+      <find>send</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GroupTunes/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_display_message.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/DisplayMessageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/ApManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/nearby/connection/test.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/GroupTunes.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-        <option value="$PROJECT_DIR$/app/app.iml" />
-      </list>
-    </option>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="948" />
+    <option name="y" value="-12" />
+    <option name="width" value="984" />
+    <option name="height" value="1044" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,78 +311,48 @@
               <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
               <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
+              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
+              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
               <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupTunes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="GroupTunes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="grouptunes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplication" />
+    <property name="device.picker.selection" value="ZY223WPJ23" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GroupTunes" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.example.grouptunes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,8 +366,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.GroupTunes">
-    <configuration name="GroupTunes" type="AndroidRunConfigurationType" factoryName="Android App">
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -213,115 +427,97 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEBUGGER_TYPE" value="Auto" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
-      <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Android App.GroupTunes" />
-      <item itemvalue="Android App.app" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="053270d3-97bc-486f-8b5c-efb2ee203ecc" name="Default Changelist" comment="" />
-      <created>1573272521853</created>
+      <changelist id="47e71447-1308-45b4-9045-a6af2c87098c" name="Default Changelist" comment="" />
+      <created>1573265057488</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573272521853</updated>
+      <updated>1573265057488</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.32980332" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Resources Explorer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info id="Structure" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.24324325" />
+      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50223213" side_tool="true" weight="0.36006546" />
-      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49776787" visible="true" weight="0.36006546" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Assistant" order="2" weight="0.3260212" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32962963" />
+      <window_info active="true" anchor="bottom" id="Build" order="6" visible="true" weight="0.3148148" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32962963" />
+      <window_info anchor="right" id="Assistant" order="0" weight="0.32955465" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" sideWeight="0.4962963" weight="0.21619433" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Device File Explorer" order="6" sideWeight="0.5037037" side_tool="true" weight="0.21619433" />
+      <window_info anchor="right" id="StringPreview" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info content_ui="combo" id="Project" order="7" weight="0.2437247" />
+      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.3148148" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32962963" />
+      <window_info anchor="right" id="Assistant" order="0" weight="0.32955465" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" sideWeight="0.4962963" weight="0.21619433" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Device File Explorer" order="6" sideWeight="0.5037037" side_tool="true" weight="0.21619433" />
+      <window_info anchor="right" id="StringPreview" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GroupTunes/app/src/main/java/com/example/grouptunes/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupTunes/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupTunes/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle" />
+    <entry file="android-dummy://C:/Users/Luke/AndroidStudioProjects/GroupTunes/app/Translations Editor" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/DisplayMessageActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/ApManager.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/nearby/connection/test.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_display_message.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/grouptunes/ExampleUnitTest.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/grouptunes/ExampleInstrumentedTest.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/example/grouptunes/test/BuildConfig.java" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/grouptunes/BuildConfig.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grouptunes/MainActivity.java" />
   </component>
 </project>
