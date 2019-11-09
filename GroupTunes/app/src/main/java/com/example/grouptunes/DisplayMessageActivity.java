@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import java.io.File;
+import java.io.IOException;
+
 public class DisplayMessageActivity extends AppCompatActivity {
 
     @Override
