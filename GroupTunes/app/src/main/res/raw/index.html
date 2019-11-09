@@ -13,15 +13,24 @@
 			margin-left: auto;
 		}
 		svg {
-			width: 20px;
-			height: 27px;
+			width: 50px;
+			height: 68px;
 			display: inline-block;
 			vertical-align: middle;
-			margin-right: 20px;
+			margin-right: 40px;
 		}
 		#SongInfo {
 			display: inline-block;
 			vertical-align: middle;
+		}
+		h3 {
+			font-size: 50px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		#SongInfo p {
+			font-size: 30px;
+			margin-top: 0px;
 		}
 		.Header {
 			background-color: #801515;
@@ -39,6 +48,7 @@
 			border-collapse: collapse;
 			width: 85%;
 			padding: 0px;
+			font-size: 30px;
 		}
 		tbody {
 			padding: 0px;
@@ -50,15 +60,15 @@
 		}
 		th {
 			margin: 0px;
-			padding: 5px;
+			padding: 15px;
 			color: white;
-			border-bottom: 3px solid white;
+			border-bottom: 6px solid white;
 		}
 		td {
 			background-color: #AA3939;
 			color: white;
-			padding: 5px;
-			border-bottom: 3px solid white;
+			padding: 15px;
+			border-bottom: 6px solid white;
 		}
 		#TopLeftTH {
 			border-top-left-radius: 15px;
@@ -78,6 +88,7 @@
 		}
 		form p {
 			font-weight: bold;
+			font-size: 30px;
 		}
 		#ButtonWrapper {
 			position: relative;
@@ -94,10 +105,12 @@
 		}
 		.Button {
 			background-color: #801515;
+			font-size: 30px;
+			font-weight: bold;
 			color: white;
 			border: none;
 			border-radius: 15px;
-			padding: 10px;
+			padding: 20px;
 			margin-bottom: 10px;
 			cursor: pointer;
 		}
@@ -260,7 +273,7 @@
 			</tr>
 		</table>
 	<div id="Suggest"></div>
-		<form action="/action_page.php"> <!-- Make sure this actually sends the file somewhere! -->
+		<form action="/action_page.php" method="post"> <!-- Make sure this actually sends the file somewhere! -->
 			<div id="ButtonWrapper">
 				<p>Suggest a Song from Your Phone:</p>
 				<button class="Button">Upload a File</button>
