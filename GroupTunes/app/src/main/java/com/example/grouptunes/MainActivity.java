@@ -15,7 +15,19 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity {
     Switch simpleSwitch1;
     Button submit;
+
+
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+
+    WebServerActivity server;
+
+    {
+        try {
+            server = new WebServerActivity();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,28 +39,24 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String statusSwitch1;
-                WebServerActivity server = null;
-                try {
-                    server = new WebServerActivity();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                String statusSwitch1 = null;
+
+
                 if (simpleSwitch1.isChecked()) {
                     statusSwitch1 = simpleSwitch1.getTextOn().toString();
                     try {
 
                         server.start();
                         server.serve(null);
-                        Thread.sleep(1000000000);
                         Log.d("myTag", "Error");
                     } catch (Exception e) {
                         Log.d("myTag", "Error");
                     }
                 }
-                else
+                else if (!simpleSwitch1.isChecked()) {
                     statusSwitch1 = simpleSwitch1.getTextOff().toString();
-                   // server.end();
+                    server.stop();
+                }
 
                 Toast.makeText(getApplicationContext(), "Connection:" + statusSwitch1 + "\n", Toast.LENGTH_LONG).show();
 
@@ -58,27 +66,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /** Called when the usertaps the Send button */
-    public void sendMessage(View view) {
-        // Do something in response to button
-        try {
-            WebServerActivity server = new WebServerActivity();
-            server.start();
-            server.serve(null);
-            Thread.sleep(1000000000);
-            Log.d("myTag", "Error");
-        } catch(Exception e) {
-            Log.d("myTag", "Error");
-        }
-
-
-        //Intent intent = new Intent(this, WebServerActivity.class);
-        //EditText editText = (EditText) findViewById(R.id.editText);
-       // String message = editText.getText().toString();
-        //intent.putExtra(EXTRA_MESSAGE.toString(), message);
-       // startActivity(intent);
-    }
+    
 
 
 }
-
