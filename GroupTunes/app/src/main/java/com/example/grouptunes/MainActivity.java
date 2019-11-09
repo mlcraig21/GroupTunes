@@ -10,6 +10,7 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import java.io.IOException;
+import java.io.InputStream;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,9 +29,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String statusSwitch1;
+                final InputStream inputStream = getResources().openRawResource(R.raw.index);
+                final InputStream inputStream2 = getResources().openRawResource(R.raw.style);
+                final InputStream inputStream3 = getResources().openRawResource(R.raw.play);
                 WebServerActivity server = null;
                 try {
-                    server = new WebServerActivity();
+                    server = new WebServerActivity(inputStream, inputStream2, inputStream3);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -62,7 +66,10 @@ public class MainActivity extends AppCompatActivity {
     public void sendMessage(View view) {
         // Do something in response to button
         try {
-            WebServerActivity server = new WebServerActivity();
+            final InputStream inputStream = getResources().openRawResource(R.raw.index);
+            final InputStream inputStream2 = getResources().openRawResource(R.raw.style);
+            final InputStream inputStream3 = getResources().openRawResource(R.raw.play);
+            WebServerActivity server = new WebServerActivity(inputStream, inputStream2, inputStream3);
             server.start();
             server.serve(null);
             Thread.sleep(1000000000);
