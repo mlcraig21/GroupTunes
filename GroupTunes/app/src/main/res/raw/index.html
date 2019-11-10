@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="5">
 	<title>Welcome to GroupTunes</title>
 	<style type="text/css">
 		body {
 			text-align: center;
 			background-color: white;
 			font-family: tahoma, verdana;
-		}
-		table {
-			margin-right: auto;
-			margin-left: auto;
 		}
 		svg {
 			width: 50px;
@@ -44,6 +42,8 @@
 			margin-top: 20px;
 		}
 		table {
+			margin-right: auto;
+			margin-left: auto;
 			border-radius: 15px;
 			border-collapse: collapse;
 			width: 85%;
@@ -53,10 +53,13 @@
 		tbody {
 			padding: 0px;
 		}
-		#TableHeader {
+		thead, tfoot {
 			background-color: #550000;
 			margin: 0px;
 			padding: 0px;
+		}
+		tfoot td {
+			background-color: #550000;
 		}
 		th {
 			margin: 0px;
@@ -257,22 +260,65 @@
 			</div>
 		</div>
 	</div>
-	<div id="Queued"></div>
-		<table>
-			<tr id="TableHeader">
+	<div id="Queued">
+		<table id="playlistTable">
+			<thead>
 				<th id="TopLeftTH">Song - Artist</th>
 				<th id="TopRightTH">Duration</th>
-			</tr>
+			</thead>
 			<tr>
 				<td>Africa - Toto [test data]</td>
 				<td>4:34 [test data]</td>
 			</tr>
 			<tr>
-				<td id="BottomLeftTD">Monody - TheFatRat [test data]</td>
-				<td id="BottomRightTD">4:51 [test data]</td>
+				<td>Monody - TheFatRat [test data]</td>
+				<td>4:51 [test data]</td>
 			</tr>
+			<tfoot>
+				<td id="BottomLeftTD">Suggest Your Own Song</td>
+				<td id="BottomRightTD">See Below</td>
+			</tfoot>
 		</table>
-	<div id="Suggest"></div>
+	</div>
+	<script>
+		//first add an event listener for page load
+        document.addEventListener( "DOMContentLoaded", get_json_data, false ); // get_json_data is the function name that will fire on page load
+
+        //this function is in the event listener and will execute on page load
+        function get_json_data(){
+            	// Relative URL of external json file
+            	var json_url = 'example.json'
+            	//var json_url = 'playlist.json';
+
+            	//Build the XMLHttpRequest (aka AJAX Request)
+            	xmlhttp = new XMLHttpRequest();
+            	xmlhttp.onreadystatechange = function() { 
+                	if (this.readyState == 4 && this.status == 200) {//when a good response is given do this
+
+                    	var data = JSON.parse(this.responseText); // convert the response to a json object
+                    	append_json(data);// pass the json object to the append_json function
+                	}
+            	}
+            	//set the request destination and type
+            	xmlhttp.open("POST", json_url, true);
+            	//set required headers for the request
+            	xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            	// send the request
+            	xmlhttp.send(); // when the request completes it will execute the code in onreadystatechange section
+        }
+
+        //this function appends the json data to the table 'gable'
+        function append_json(data){
+            var table = document.getElementById('playlistTable');
+            data.forEach(function(object) {
+                var tr = document.createElement('tr');
+                tr.innerHTML = '<td>' + object.Name + '</td>' +
+                '<td>' + object.Duration + '</td>'
+                table.appendChild(tr);
+            });
+        }
+	</script>
+	<div id="Suggest">
 		<form action="/index.html" method="post"> <!-- Make sure this actually sends the file somewhere! -->
 			<div id="ButtonWrapper">
 				<p>Suggest a Song from Your Phone:</p>
@@ -282,6 +328,7 @@
 			<br>
 			<input type="submit" class="Button">
 		</form>
+	</div>
 	<footer>
 		<div>
 			<!-- This is where we can give credit to any sources we need to (images, etc.) -->
