@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.grouptunes"
-        minSdkVersion 15
+        minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -30,6 +30,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //file server
     api 'org.nanohttpd:nanohttpd:2.3.1'
+    api 'org.nanohttpd:nanohttpd-apache-fileupload:2.3.1'
+    api 'javax.servlet:javax.servlet-api:4.0.1'
     //runtime(
         //    [group: 'org.nanohttpd', name: 'nanohttpd', version: '2.3.1'],
     //)

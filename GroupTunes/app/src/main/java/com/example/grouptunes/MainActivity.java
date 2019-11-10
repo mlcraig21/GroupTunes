@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     {
         try {
-            server = new WebServerActivity();
+            server = new WebServerActivity(MainActivity.this);
         } catch (IOException e) {
             e.printStackTrace();
         }
