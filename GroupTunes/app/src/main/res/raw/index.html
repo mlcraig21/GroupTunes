@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="refresh" content="5">
 	<title>Welcome to GroupTunes</title>
 	<style type="text/css">
 		body {
@@ -25,18 +24,20 @@
 			font-size: 50px;
 			margin-top: 20px;
 			margin-bottom: 10px;
+			color: #233339;
 		}
 		#SongInfo p {
 			font-size: 30px;
 			margin-top: 0px;
+			color: #233339;
 		}
 		.Header {
-			background-color: #801515;
+			background-color: #F5B03F;
 			margin-left: 10px;
 			margin-right: 10px;
 			border-radius: 100px;
 			overflow: hidden;
-			color: white;
+			color: #233339;
 		}
 		#Queued {
 			margin-top: 20px;
@@ -54,22 +55,22 @@
 			padding: 0px;
 		}
 		thead, tfoot {
-			background-color: #550000;
+			background-color: #E29312;
 			margin: 0px;
 			padding: 0px;
 		}
 		tfoot td {
-			background-color: #550000;
+			background-color: #E29312;
 		}
 		th {
 			margin: 0px;
 			padding: 15px;
-			color: white;
+			color: #233339;
 			border-bottom: 6px solid white;
 		}
 		td {
-			background-color: #AA3939;
-			color: white;
+			background-color: #FFC464;
+			color: #233339;
 			padding: 15px;
 			border-bottom: 6px solid white;
 		}
@@ -92,6 +93,7 @@
 		form p {
 			font-weight: bold;
 			font-size: 30px;
+			color: #233339;
 		}
 		#ButtonWrapper {
 			position: relative;
@@ -107,10 +109,10 @@
 			cursor: pointer;
 		}
 		.Button {
-			background-color: #801515;
+			background-color: #F5B03F;
 			font-size: 30px;
 			font-weight: bold;
-			color: white;
+			color: #233339;
 			border: none;
 			border-radius: 15px;
 			padding: 20px;
@@ -119,6 +121,7 @@
 		}
 
 	</style>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
 	<div id="Current">
@@ -137,13 +140,13 @@
    y="0px"
    viewBox="0 0 193.64253 264.19391"
    xml:space="preserve"
-   sodipodi:docname="square-play-button.svg"
+   sodipodi:docname="play.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    width="193.64253"
    height="264.19391"><metadata
    id="metadata40"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs38">
 	
 	
@@ -161,7 +164,7 @@
    id="namedview36"
    showgrid="false"
    inkscape:zoom="1.3610629"
-   inkscape:cx="230.24991"
+   inkscape:cx="101.67393"
    inkscape:cy="118.07393"
    inkscape:window-x="-11"
    inkscape:window-y="-11"
@@ -238,7 +241,7 @@
    inkscape:label="Layer 1"
    transform="translate(-149.13586,-107.06084)"><path
      sodipodi:type="star"
-     style="fill:none;fill-opacity:0.72727272;stroke:#ffffff;stroke-width:44.03675079;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     style="fill:none;fill-opacity:1;stroke:#233339;stroke-width:44.03675079;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path4552"
      sodipodi:sides="3"
      sodipodi:cx="236.82474"
@@ -281,8 +284,26 @@
 		</table>
 	</div>
 	<script>
+
 		//first add an event listener for page load
-        document.addEventListener( "DOMContentLoaded", get_json_data, false ); // get_json_data is the function name that will fire on page load
+        document.addEventListener( "DOMContentLoaded", refresh, false ); // get_json_data is the function name that will fire on page load
+
+        function clear() {
+        	$("1").remove();
+        }
+
+        async function refresh() {
+        	while (true) {
+        		clear();
+        		get_json_data();
+
+        		await sleep(2000);
+        	}
+        }
+
+        function sleep(ms) {
+  			return new Promise(resolve => setTimeout(resolve, ms));
+		}
 
         //this function is in the event listener and will execute on page load
         function get_json_data(){
@@ -312,6 +333,7 @@
             var table = document.getElementById('playlistTable');
             data.forEach(function(object) {
                 var tr = document.createElement('tr');
+                tr.id = '1'
                 tr.innerHTML = '<td>' + object.Name + '</td>' +
                 '<td>' + object.Duration + '</td>'
                 table.appendChild(tr);
