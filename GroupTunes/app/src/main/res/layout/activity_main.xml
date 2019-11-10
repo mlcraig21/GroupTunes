@@ -1,69 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+<?xml version="1.0" encoding="UTF-8"?>
 
+    <LinearLayout tools:context=".MainActivity" android:orientation="vertical" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/asniListView" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Switch
-        android:id="@+id/connection"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:checked="false"
-        android:text="Connection"
-        android:textOff="Off"
-        android:textOn="On"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="61dp" />
+    <Switch android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/connection" tools:layout_editor_absoluteY="61dp" tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.498" app:layout_constraintEnd_toEndOf="parent" android:textOn="On" android:textOff="Off" android:text="Connection" android:checked="false" android:layout_gravity="center"/>
 
-    <Button
-        android:id="@+id/submitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:background="#009284"
-        android:padding="10dp"
-        android:text="Submit"
-        android:textColor="#fff"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/connection"
-        tools:ignore="MissingConstraints" />
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/submitButton" tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.498" app:layout_constraintEnd_toEndOf="parent" android:text="Submit" android:layout_gravity="center" app:layout_constraintTop_toBottomOf="@+id/connection" android:textStyle="bold" android:textColor="#000000" android:padding="10dp" android:background="#f5b03f" android:layout_marginRight="16dp" android:layout_marginEnd="16dp" android:layout_marginTop="16dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="songPlay"
-        android:text="@string/button_play"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button" android:text="@string/button_play" android:onClick="songPlay"/>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="songPause"
-        android:text="@string/button_pause"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button2" android:text="@string/button_pause" android:onClick="songPause"/>
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="songStop"
-        android:text="@string/button_stop"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button3" android:text="@string/button_stop" android:onClick="songStop"/>
 
 </LinearLayout>
