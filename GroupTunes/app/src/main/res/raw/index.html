@@ -291,7 +291,7 @@
         document.addEventListener( "DOMContentLoaded", refresh, false ); // get_json_data is the function name that will fire on page load
 
         function clear() {
-        	$("1").remove();
+        	$('#playlistTable tbody').html('');
         }
 
         async function refresh() {
@@ -310,8 +310,7 @@
         //this function is in the event listener and will execute on page load
         function get_json_data(){
             	// Relative URL of external json file
-            	var json_url = 'example.json'
-            	//var json_url = 'playlist.json';
+            	var json_url = 'playlist.json'
 
             	//Build the XMLHttpRequest (aka AJAX Request)
             	xmlhttp = new XMLHttpRequest();
@@ -334,17 +333,18 @@
         function append_json(data){
             var table = document.getElementById('playlistTable');
             data.forEach(function(object) {
+                var tbody = document.createElement('tbody');
+            	tbody.id = "playlistTableBody";
                 var tr = document.createElement('tr');
-                tr.id = '1'
                 tr.innerHTML = '<td>' + object.Name + '</td>' +
                 '<td>' + object.Duration + '</td>'
-                table.appendChild(tr);
+                tbody.appendChild(tr);
+                table.appendChild(tbody);
             });
         }
 	</script>
 	<div id="Suggest">
 		<form action="/index.html" method="post"> <!-- Make sure this actually sends the file somewhere! -->
->>>>>>> 3e0be282a870f12953dc21a168907699467bf4bc
 			<div id="ButtonWrapper">
 				<p>Suggest a Song from Your Phone:</p>
 				<button class="Button">Upload a File</button>
