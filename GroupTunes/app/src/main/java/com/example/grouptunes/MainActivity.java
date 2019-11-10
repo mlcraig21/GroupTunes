@@ -10,24 +10,15 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import java.io.IOException;
+import java.io.InputStream;
 
 
 public class MainActivity extends AppCompatActivity {
     Switch simpleSwitch1;
     Button submit;
-
-
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
 
-    WebServerActivity server;
-
-    {
-        try {
-            server = new WebServerActivity(MainActivity.this);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+    WebServerActivity server = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,9 +30,16 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String statusSwitch1 = null;
-
-
+                String statusSwitch1;
+                final InputStream inputStream = getResources().openRawResource(R.raw.index);
+                final InputStream inputStream2 = getResources().openRawResource(R.raw.style);
+                final InputStream inputStream3 = getResources().openRawResource(R.raw.play);
+                try {
+                    server = new WebServerActivity(MainActivity.this,inputStream, inputStream2, inputStream3);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                statusSwitch1 = null;
                 if (simpleSwitch1.isChecked()) {
                     statusSwitch1 = simpleSwitch1.getTextOn().toString();
                     try {
@@ -61,12 +59,4 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Connection:" + statusSwitch1 + "\n", Toast.LENGTH_LONG).show();
 
             }
-        });
-
-    }
-
-
-    
-
-
-}
+        });}}
